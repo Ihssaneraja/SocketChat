@@ -1,0 +1,42 @@
+:root{
+    --darkBlue : #1D203E;
+    --darkGrey : #2C2F48;
+    --gradientBlue : #314BD5;
+    --gradientCyan : #27DCE5;
+    --lighPink: #C743AF;
+    --myWhite : #ffffff;
+}
+.mainContainer section{
+    border-radius: 25px;
+    background-color: var(--darkBlue);
+    position: relative;
+    width: 95%;
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    overflow: hidden;
+    z-index: 3;
+    box-shadow: 10px 10px 5px 0px var(--darkGrey);
+
+
+}
+.mainContainer section .slogan{
+    width: 50%;
+
+}
+.mainContainer section .slogan h1{
+    color: var(--myWhite);
+    font-size: 75px;
+    margin: 0px 12px;
+}
+
+.mainContainer section .pictureContainer{
+    width: 50%;
+    height: 100%;
+    background-image: url('/res/illustrations/phonePexels.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
